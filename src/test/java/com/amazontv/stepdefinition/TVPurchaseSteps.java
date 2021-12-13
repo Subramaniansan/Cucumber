@@ -22,6 +22,7 @@ public class TVPurchaseSteps {
 	static String tvName;
 	@Given("User launches application")
 	public void user_launches_Amazon_application() {
+		System.out.println("launch");
 		WebDriverManager.chromedriver().setup();
 	       driver = new ChromeDriver();
 		driver.get("https://www.amazon.in/");

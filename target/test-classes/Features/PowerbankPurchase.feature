@@ -1,5 +1,5 @@
 #Author: your.email@your.domain.com
-
+@power
 Feature: Powerbank
 
   Scenario: Powerbank Purchase
